@@ -5,6 +5,12 @@
 cp -p ./laradock/.env.example ./laradock/.env
 
 ```
+## 切換 PHP 版本
+### 路徑 ./laradock/.env 
+```
+8.0 - 7.4 - 7.3 - 7.2 - 7.1 - 7.0 - 5.6
+PHP_VERSION=7.3
+```
 
 ---
 
@@ -54,3 +60,9 @@ composer install
 ```
 php artisan key:generate
 ```
+---
+## 開始
+```
+http://localhost
+```
+
