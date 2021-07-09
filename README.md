@@ -11,6 +11,11 @@ cp -p ./laradock/.env.example ./laradock/.env
 8.0 - 7.4 - 7.3 - 7.2 - 7.1 - 7.0 - 5.6
 PHP_VERSION=7.3
 ```
+## 定義container名稱
+### 路徑 ./laradock/.env 
+```
+COMPOSE_PROJECT_NAME=laradock
+```
 
 ---
 
